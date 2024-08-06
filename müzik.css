@@ -1,0 +1,58 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Metinleri ortalar */
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ana Sayfa İçeriği */
+ul {
+    list-style-type: disc; /* Siyah noktaları gösterir */
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Sol hizalama, ortalanmış liste için */
+    display: inline-block; /* Listeyi ortalamak için */
+}
+
+
+/* Ürünler Sayfası İçeriği */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    background-color: transparent; /* Arka plan rengini şeffaf yapar */
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
